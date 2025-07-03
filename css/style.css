@@ -1,0 +1,35 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 导航栏 */
+nav {
+    background: #333;
+    padding: 15px;
+    color: white;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
